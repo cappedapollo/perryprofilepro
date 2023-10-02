@@ -1,5 +1,5 @@
 "use strict";
-var Roles = ["Javasript/Typescript", "C#/Java/Python/PHP", "Angular/React", "ASP.NET/Spring/Laravel", "MongoDB/MySQL", "UX/UI Design"];
+var Roles = ["JavaScript/TypeScript", "NodeJS/ExpressJS/NestJS/Strapi","MongoDB/MySQL", "React/AngularJS/Vue.js", "Gatsby.js/ReactNative/Electron", "MUI/AntD/Tailwindcss/Bootstrap"];
 var Window = $(window);
 var Slide1 = $('#slide-brand');
 var limit = 300;
@@ -23,7 +23,7 @@ $(document).ready(function () {
     strings: Roles,
     typeSpeed: 50,
     backSpeed: 50,
-    backDelay: 4000,
+    backDelay: 1000,
     startDelay: 1000,
     loop: true,
     showCursor: true

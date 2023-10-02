@@ -10,19 +10,7 @@ var goup = $('.scroll-top');
 var partner = $('#craxpartner-slide');
 var slideoutMenu = $('.wrap-mobilemenu');
 var slideoutMenuWidth = $('.wrap-mobilemenu').width();
-//Filtering items on portfolio
-var portfolioFilter = $('.filter-list li');
-// filter items on button click
-$(portfolioFilter).on('click', function () {
-  var filterValue = $(this).attr('data-filter');
-  $('.porto-content').isotope({
-    filter: filterValue
-  });
-});
-//Add/remove class on filter list
-$(portfolioFilter).on('click', function () {
-  $(this).addClass('aktip').siblings().removeClass('aktip');
-});
+
 // documennt ready
 $(document).ready(function () {
   $('.skill-bar').each(function (i) {
@@ -40,15 +28,7 @@ $(document).ready(function () {
     loop: true,
     showCursor: true
   });
-  /* isotope */
-  setTimeout(() => {
-    $('.porto-content').isotope({
-      resizable: false,
-      itemSelector: '.porto-item',
-      layoutMode: 'masonry',
-      filter: '*'
-    });
-  }, 3000)
+
   /*parallax hero */
   $('.jarallax').jarallax({
     speed: 0.5,

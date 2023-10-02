@@ -1,5 +1,5 @@
 "use strict";
-var Roles = ["JavaScript/TypeScript", "NodeJS/ExpressJS/NestJS/Strapi","MongoDB/MySQL", "React/AngularJS/Vue.js", "Gatsby.js/ReactNative/Electron", "MUI/AntD/Tailwindcss/Bootstrap"];
+var Roles = ["Python/FastApi/Flask", "JavaScript/TypeScript", "AI/ML",  "NodeJS/ExpressJS/NestJS/Strapi","MongoDB/MySQL", "React/AngularJS/Vue.js", "Gatsby.js/ReactNative/Electron", "MUI/AntD/Tailwindcss/Bootstrap"];
 var Window = $(window);
 var Slide1 = $('#slide-brand');
 var limit = 300;

@@ -1,6 +1,6 @@
 # Portfolio Website with JQuery
 
-This repository contains schmid profile for Portfolio website created using NextJs. <br />
+This repository contains Perry's profile for Portfolio website. <br />
 
 ### Resources Used in This Project
 
